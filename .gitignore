@@ -1,0 +1,16 @@
+# Ignorar entornos virtuales
+venv/
+.env/
+env/
+
+# Archivos de Python que no deben subirse
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
